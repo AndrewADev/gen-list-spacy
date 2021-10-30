@@ -132,3 +132,6 @@ dmypy.json
 
 # Presently ignoring, as only contains a non-portable path
 .vscode/
+
+# program-specific data files
+data/
