@@ -11,7 +11,7 @@ idna==3.3
 jinja2==3.0.2
 markupsafe==2.0.1
 murmurhash==1.0.6
-numpy==1.21.3
+numpy==1.22.0
 packaging==21.2
 pathy==0.6.1
 preshed==3.0.6
