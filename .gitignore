@@ -134,4 +134,4 @@ dmypy.json
 .vscode/
 
 # program-specific data files
-data/
+/data/

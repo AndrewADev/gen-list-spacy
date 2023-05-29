@@ -1,3 +1,4 @@
+-i https://pypi.org/simple
 blis==0.7.5
 catalogue==2.0.6
 certifi==2021.10.8
@@ -5,10 +6,10 @@ charset-normalizer==2.0.7
 click==8.0.3
 colorama==0.4.4
 cymem==2.0.6
-de-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.1.0/de_core_news_lg-3.1.0-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.1.0/de_core_news_lg-3.1.0-py3-none-any.whl#egg=de-core-news-lg
 idna==3.3
-Jinja2==3.0.2
-MarkupSafe==2.0.1
+jinja2==3.0.2
+markupsafe==2.0.1
 murmurhash==1.0.6
 numpy==1.21.3
 packaging==21.2
@@ -17,6 +18,7 @@ preshed==3.0.6
 pydantic==1.8.2
 pyparsing==2.4.7
 requests==2.26.0
+setuptools==67.8.0 ; python_version >= '3.7'
 smart-open==5.2.1
 spacy==3.1.4
 spacy-legacy==3.0.8

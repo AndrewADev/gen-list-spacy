@@ -40,6 +40,17 @@ Previous recomendation (no longer supported, may be removed)
 2. Activate the environment you'll be using, if not already (e.g. `pipenv shell`)
 3. Create a local folder called `data` (`mkdir data` from repo root)
 4. Paste text you would like to parse for into a text file, `data/article.txt`
-5. Run the script (`python ./extract-list.py > data/output.txt`). Note that you can omit the redirection of output, if you'd like to preview the results instead.
+5. Run the script (`python gen_list > data/output.txt`). Note that you can omit the redirection of output, if you'd like to preview the results instead.
 
 In general, the repo is currently set up to ignore files in `./data`, so that is an easy option for output files.
+
+If you would like to use a different input path for the data file, you can do so by calling:
+
+```shell
+python gen_list --input='/path/to/your/text/file'
+```
+
+Note that you can see all available options by calling:
+```shell
+python gen_list --help
+```
