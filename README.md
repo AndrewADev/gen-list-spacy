@@ -19,7 +19,8 @@ See the `pipenv` [docs for details](https://pipenv.pypa.io/en/latest/installatio
 
 ### Install the packages
 
-Navigate to the Run these steps:
+Navigate to the project directory and then run these commands:
+
 ```shell
 pipenv shell
 pipenv install
@@ -29,7 +30,7 @@ Now you should be able to run the script from within a `pipenv shell`. Note that
 
 ## Via `pip` and virtual environment (legacy)
 
-Previous recomendation (no longer supported, may be removed)
+Previous recomendation (no longer supported, will be removed)
 
 1. Activate the virtual env (per your OS & shell/terminal emulator)
 2. `pip install -r requirements.txt`
