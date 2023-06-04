@@ -51,6 +51,11 @@ If you would like to use a different input path for the data file, you can do so
 python gen_list --input='/path/to/your/text/file'
 ```
 
+If you would like to specify an alternate output type (currently, the only additional option is CSV), you can do so by calling:
+```shell
+python gen_list --output-type=csv
+```
+
 Note that you can see all available options by calling:
 ```shell
 python gen_list --help

@@ -1,5 +1,5 @@
-from extract_list import output_list
+from extract_list import generate_list
 
 
 if __name__ == '__main__':
-    output_list()
+    generate_list()
