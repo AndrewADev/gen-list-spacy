@@ -60,11 +60,11 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:0f0d56dc5a6ad56fd4ba36484d6cc34451e1c6548c61daad8c320169f91eddc7",
-                "sha256:c6c2e98f5c7869efca1f8916fed228dd91539f9f1b444c314c06eef02980c716"
+                "sha256:539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082",
+                "sha256:92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9"
             ],
             "index": "pypi",
-            "version": "==2023.5.7"
+            "version": "==2023.7.22"
         },
         "charset-normalizer": {
             "hashes": [
@@ -165,11 +165,11 @@
         },
         "confection": {
             "hashes": [
-                "sha256:aeac5919ba770c7b281aa5863bb6b0efed42568a7ad8ea26b6cb632154503fb2",
-                "sha256:b1ddf5885da635f0e260a40b339730806dfb1bd17d30e08764f35af841b04ecf"
+                "sha256:4678652fb4aab94f40631c853e2dd76a5a420205f877cb6a9f2459a44fd7aa29",
+                "sha256:d2d9e53a5a61395caae1ab09281bab17b08a23fa94aabd1cc24c134880d41c30"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.0.4"
+            "version": "==0.1.1"
         },
         "cymem": {
             "hashes": [
@@ -471,11 +471,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:5df61bf30bb10c6f756eb19e7c9f3b473051f48db77fddbe06ff2ca307df9a6f",
-                "sha256:62642358adc77ffa87233bc4d2354c4b2682d214048f500964dbe760ccedf102"
+                "sha256:d59c97e7b774979a5ccb96388efc9eb65518004537e85d52e81eaee89ab6dd91",
+                "sha256:e13e1b0bc760e9b0127eda042845999b2f913e12437046e663b833aa96d89715"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==67.8.0"
+            "markers": "python_version >= '3.8'",
+            "version": "==68.1.0"
         },
         "smart-open": {
             "hashes": [
@@ -645,21 +645,13 @@
         }
     },
     "develop": {
-        "colorama": {
-            "hashes": [
-                "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
-                "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
-            ],
-            "index": "pypi",
-            "version": "==0.4.6"
-        },
         "exceptiongroup": {
             "hashes": [
-                "sha256:232c37c63e4f682982c8b6459f33a8981039e5fb8756b2074364e5055c498c9e",
-                "sha256:d484c3090ba2889ae2928419117447a14daf3c1231d5e30d0aae34f354f01785"
+                "sha256:097acd85d473d75af5bb98e41b61ff7fe35efe6675e4f9370ec6ec5126d160e9",
+                "sha256:343280667a4585d195ca1cf9cef84a4e178c4b6cf2274caef9859782b567d5e3"
             ],
             "markers": "python_version < '3.11'",
-            "version": "==1.1.1"
+            "version": "==1.1.3"
         },
         "iniconfig": {
             "hashes": [
@@ -679,11 +671,11 @@
         },
         "pluggy": {
             "hashes": [
-                "sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159",
-                "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"
+                "sha256:c2fd55a7d7a3863cba1a013e4e2414658b1d07b6bc57b3919e0c63c9abb99849",
+                "sha256:d12f0c4b579b15f5e054301bb226ee85eeeba08ffec228092f8defbaa3a4c4b3"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==1.0.0"
+            "markers": "python_version >= '3.7'",
+            "version": "==1.2.0"
         },
         "pytest": {
             "hashes": [
