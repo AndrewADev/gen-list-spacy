@@ -28,13 +28,6 @@ pipenv install
 
 Now you should be able to run the script from within a `pipenv shell`. Note that you will need to restart the `pipenv shell` if you restart your machine, but will only need to run `install` if the packages have been updated.
 
-## Via `pip` and virtual environment (legacy)
-
-Previous recomendation (no longer supported, will be removed)
-
-1. Activate the virtual env (per your OS & shell/terminal emulator)
-2. `pip install -r requirements.txt`
-
 # Running 
 
 1. Perform setup as above
