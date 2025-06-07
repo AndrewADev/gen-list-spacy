@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Development Setup
 
-This project uses `pipenv` for dependency management with Python 3.10:
+This project uses `pipenv` for dependency management with Python 3.13:
 
 ```bash
 pipenv shell

@@ -11,7 +11,7 @@ charset-normalizer = "*"
 click = "*"
 colorama = "*"
 cymem = "*"
-de-core-news-lg = {file = "https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.5.0/de_core_news_lg-3.5.0-py3-none-any.whl"}
+de-core-news-lg = {file = "https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.8.0/de_core_news_lg-3.8.0-py3-none-any.whl"}
 idna = "*"
 jinja2 = "*"
 markupsafe = "*"
@@ -24,7 +24,7 @@ pydantic = "*"
 pyparsing = "*"
 requests = "*"
 smart-open = "*"
-spacy = ">=3.5.0"
+spacy = ">=3.8.0"
 spacy-legacy = "*"
 srsly = "*"
 thinc = "*"
@@ -38,4 +38,4 @@ wasabi = "*"
 pytest = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.13"
