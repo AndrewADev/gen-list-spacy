@@ -12,7 +12,7 @@ For all methods, you must first check out or download the code.
 
 For the script to run, you will need to setup an environment with the dependencies. The current recommended method is using `pipenv`, which helps manage the details of the virtual envionment, and provides deterministic builds via a lockfile (while requiring a specific python version):
 
-1. Make sure you have both `python` (3.10) as well as `pip` installed on your system
+1. Make sure you have both `python` (3.13) as well as `pip` installed on your system
 2. Run `pip install pipenv --user`
 
 See the `pipenv` [docs for details](https://pipenv.pypa.io/en/latest/installation/#pipenv-installation)
