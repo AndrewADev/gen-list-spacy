@@ -133,5 +133,8 @@ dmypy.json
 # Presently ignoring, as only contains a non-portable path
 .vscode/
 
+# Coding assistants
+.claude/*.local.json
+
 # program-specific data files
 /data/
