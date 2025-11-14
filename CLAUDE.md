@@ -4,16 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Development Setup
 
-This project uses `pipenv` for dependency management with Python 3.13:
+This project uses `uv` for dependency management with Python 3.13:
 
 ```bash
-pipenv shell
-pipenv install
+uv sync --all-extras # Install all dependencies including dev dependencies
 ```
 
-For development dependencies (includes pytest):
+After installing dependencies, download the German SpaCy language model:
 ```bash
-pipenv install --dev
+uv pip install pip  # Required for spacy download command
+uv run python -m spacy download de_core_news_lg
+```
+
+**Note:** If you encounter 403 errors downloading the model from GitHub, you can try:
+1. Download manually from [SpaCy models releases](https://github.com/explosion/spacy-models/releases) and install with `uv pip install <path-to-whl>`
+2. Or use `pip install https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.8.0/de_core_news_lg-3.8.0-py3-none-any.whl` directly (may require GitHub authentication in some environments)
+
+To run commands in the uv environment:
+```bash
+uv run <command>     # Run a command in the virtual environment
 ```
 
 ## Running the Application
@@ -21,18 +30,18 @@ pipenv install --dev
 The main application extracts nouns and verbs from German text files using SpaCy:
 
 ```bash
-python gen_list                              # Uses default input: ./data/article.txt
-python gen_list --input=/path/to/file.txt    # Custom input file
-python gen_list --output-type=csv            # CSV output format
-python gen_list --help                       # See all options
+uv run gen_list                              # Uses default input: ./data/article.txt
+uv run gen_list --input=/path/to/file.txt    # Custom input file
+uv run gen_list --output-type=csv            # CSV output format
+uv run gen_list --help                       # See all options
 ```
 
 ## Testing
 
 Run tests with pytest:
 ```bash
-pytest                    # Run all tests
-pytest tests/test_extract_list.py  # Run specific test file
+uv run pytest                    # Run all tests
+uv run pytest tests/test_extract_list.py  # Run specific test file
 ```
 
 ## Architecture
